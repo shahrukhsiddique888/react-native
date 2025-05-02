@@ -37,3 +37,9 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+# .gitignore
+node_modules
+.expo
+.expo-shared
+dist
+.env
