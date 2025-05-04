@@ -1,7 +1,7 @@
 import React from 'react';
-import {StyleSheet, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
 
-const onboarding = () => {
+const MovieDetails = () => {
     return (
         <View className="flex-1 justify-center items-center">
             <Text className="font-bold color-amber-600 text-4xl">the</Text>
@@ -9,5 +9,5 @@ const onboarding = () => {
     );
 };
 
-export default onboarding;
-const styles = StyleSheet.create({});
+export default MovieDetails;
+
